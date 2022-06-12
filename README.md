@@ -13,10 +13,11 @@ This module will introduce you to using No-Code Datwiza to building a Python Dja
 - Avoid security vulnerabilities with a No-Code product developed by security experts
 
 ## How No-Code Datawiza works
-
 ![A diagram showing how datawiza works with Azure AD ](/tutorial/images/how-datawiza-works.png)
 
+Datawiza is deployed as a reverse proxy in front of web apps, talking to Azure AD. It authenticates users with Azure AD via OIDC or SAML and then passes the user info, access token and others to the app so that the app itself does not have to talk to Azure AD directly, maintain user sessions or manage tokens.
 
+The Datawiza proxies are delivered as lightweight docker containers (supporting sidecar or standalone mode) and managed via a unified cloud console [(more details)](https://www.datawiza.com/platform/). It works with any environment and is a perfect fit for multi-clouds.
 
 ## Lab - Build Python Django apps with Microsoft Graph
 
