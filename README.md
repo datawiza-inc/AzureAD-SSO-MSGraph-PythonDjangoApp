@@ -12,6 +12,12 @@ This module will introduce you to using No-Code Datwiza to building a Python Dja
 - Reduce weeks of engineering work to hours, even minutes
 - Avoid security vulnerabilities with a No-Code product developed by security experts
 
+## How No-Code Datawiza works
+
+![A diagram showing how datawiza works with Azure AD ](/tutorial/images/how-datawiza-works.png)
+
+
+
 ## Lab - Build Python Django apps with Microsoft Graph
 
 In this lab you will create a Python Django web application using the Azure AD v2 authentication endpoint to access data in Office 365 using Microsoft Graph.
