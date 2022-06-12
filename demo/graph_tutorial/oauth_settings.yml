@@ -1,0 +1,19 @@
+# app_id: "073c22b9-e413-4067-b0bb-9bb263b21f66"
+# app_secret: "OOo8Q~Vlx9vO4h915bpuMeeeAd~yWWKUlUbPccjE"
+# redirect: "http://localhost:8000/callback"
+# scopes:
+#   - user.read
+#   - mailboxsettings.read
+#   - calendars.readwrite
+# authority: "https://login.microsoftonline.com/common"
+# auth: "http://localhost:9772/ab-auth"
+# signin: "http://localhost:9772/ab-signin?dw_from_uri=/"
+# signin: "http://localhost:9772/sso/login"
+# signin: "http://localhost:9772/ab-login"
+# signin: "http://localhost:9772/login.html"
+# signout: "http://localhost:9772/ab-logout"
+# signin: "http://localhost:9772/ab-signin?dw_from_uri=/"
+# signout: "http://localhost:9772/ab-clearsession"
+
+# signin: "http://localhost:9772/datawiza/sso/login"
+signout: "http://localhost:9772/datawiza/ab-clearsession"
