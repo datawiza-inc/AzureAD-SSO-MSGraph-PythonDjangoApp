@@ -1,6 +1,23 @@
-# Microsoft Graph Training Module - Build Python Django apps with Microsoft Graph
+# Datawiza Training Module - Build Python Django Apps with Microsoft Graph via No-Code Datawiza
 
-This module will introduce you to working with Microsoft Graph to access data in Office 365 by building a Python Django web application.
+This module will introduce you to using No-Code Datwiza to build a Python Django web application with Microsoft Graph. It shows two major functionalites:
+- How to enable Micorosft login (Microsoft Azure AD work or personal account)
+- How to call Micorosft Graph API to get the user's data
+
+## The Benefits of Using No-Code Datawiza
+- No need to learn complex OIDC/OAuth or SAML protocols
+- No need to manage refresh tokens, access tokens or ID tokens
+- No need to manage user sessions
+- No need to use SDKs and write code
+- Reduce weeks of engineering work to hours, even minutes
+- Avoid security vulnerabilities with a No-Code product developed by security experts
+
+## How No-Code Datawiza Works
+![A diagram showing how datawiza works with Azure AD ](/tutorial/images/how-datawiza-works.png)
+
+Datawiza is deployed as a reverse proxy in front of web apps, talking to Azure AD. It authenticates users with Azure AD via OIDC or SAML and then passes the user info, access token and others to the app so that the app itself does not have to talk to Azure AD directly, maintain user sessions or manage tokens.
+
+The Datawiza proxies are delivered as lightweight docker containers (supporting sidecar or standalone mode) and managed via a unified cloud console [(more details)](https://www.datawiza.com/platform/). It works with any environment and is a perfect fit for multi-clouds.
 
 ## Lab - Build Python Django apps with Microsoft Graph
 
