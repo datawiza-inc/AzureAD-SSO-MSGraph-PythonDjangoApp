@@ -2,7 +2,7 @@
 
 This module will introduce you to using No-Code Datwiza to build a Python Django web application with Microsoft Graph. It shows two major functionalites:
 - How to enable Micorosft login (Microsoft Azure AD work or personal account)
-- How to call Micorosft Graph API to get the user's data
+- How to call Micorosft Graph API to retrieve/update the user's data
 
 ## The Benefits of Using No-Code Datawiza
 - No need to learn complex OIDC/OAuth or SAML protocols
