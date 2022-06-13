@@ -19,11 +19,6 @@ Datawiza is deployed as a reverse proxy in front of web apps, talking to Azure A
 
 The Datawiza proxies are delivered as lightweight docker containers (supporting sidecar or standalone mode) and managed via a unified cloud console [(more details)](https://www.datawiza.com/platform/). It works with any environment and is a perfect fit for multi-clouds.
 
-## Lab - Build Python Django apps with Microsoft Graph
-
-In this lab you will create a Python Django web application using the Azure AD v2 authentication endpoint to access data in Office 365 using Microsoft Graph.
-
-- [Python Microsoft Graph tutorial](https://docs.microsoft.com/graph/tutorials/python)
 
 ## Completed sample
 
