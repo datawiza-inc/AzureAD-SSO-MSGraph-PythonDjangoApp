@@ -1,4 +1,4 @@
-# Datawiza Training Module - Build Python Django apps with Microsoft Graph via No-Code Datawiza
+# Datawiza Training Module - Build Python Django Apps with Microsoft Graph via No-Code Datawiza
 
 This module will introduce you to using No-Code Datwiza to building a Python Django web application with Microsoft Graph. It shows two major functionalites:
 - How to enable Micorosft login (Microsoft Azure AD work or personal account)
