@@ -1,0 +1,14 @@
+version: "3"
+services:
+  # Configuration of Datawiza Access Broker image begins here.
+  # Unless you know what you are doing, do not modify this block.
+  # If you need any assistant, please contact: info@datawiza.com
+  datawiza-access-broker:
+    image: registry.gitlab.com/datawiza/access-broker
+    container_name: datawiza-access-broker
+    ports:
+      - "9772:9772"
+    restart: always
+    environment:
+      PROVISIONING_KEY: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      PROVISIONING_SECRET: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
