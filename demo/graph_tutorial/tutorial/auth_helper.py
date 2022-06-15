@@ -26,6 +26,8 @@ def get_user(request):
     headers = request.headers
     if 'X-Dw-User' in headers:
       info = get_user_mailbox_settings(get_token(request))
+      if 'mailboxSettings' not in info:
+        raise Exception("Failed to get mailboxSettings", info)    
       user = {
         'is_authenticated': True,
         'name': headers['name'],

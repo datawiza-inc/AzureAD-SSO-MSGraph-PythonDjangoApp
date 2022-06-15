@@ -12,4 +12,5 @@ urlpatterns = [
   path('signout', views.sign_out, name='signout'),
   path('calendar', views.calendar, name='calendar'),
   path('calendar/new', views.newevent, name='newevent'),
+  path('status', views.home, name='status'),
 ]
